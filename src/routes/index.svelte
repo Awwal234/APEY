@@ -1,5 +1,19 @@
+<svelte:head>
+    <meta charset="utf-8">
+    <meta name="description" content="Fintech project">
+    <meta name="author" content="">
+</svelte:head>
+
 <script>
     import "../app.css";
+    import Nav from '../components/nav.svelte';
 </script>
 
-<h1 class="underline text-red-500">Welcome to Apey Build</h1>
+<style scoped>
+
+</style>
+
+<div>
+    <Nav/>
+</div>
+
