@@ -8,13 +8,13 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
-        background-color: black;
+        background-color: #111827;
         opacity: 0.8;
     }
 
     @media only screen and (min-width:768px){
         #navig{
-            background-color: #000;
+            background-color: #111827;
             background-repeat: no-repeat;
             background-position: center;
             background-size: 100% 100%;
