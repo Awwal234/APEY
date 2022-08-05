@@ -3,9 +3,33 @@
 </script>
 
 <style>
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    #navig{
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        background-color: black;
+        opacity: 0.8;
+    }
+
+    @media only screen and (min-width:768px){
+        #navig{
+            background-color: #000;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+        }
+    }
 </style>
 
 <!---->
-<div class="bg-indigo-600 fixed w-full h-fit p-[10px] md:w-[300px] md:h-[100%]">
-</div>
+<header class="fixed top-0 w-full h-fit p-[10px] md:w-[300px] md:h-[100%]" id="navig">
+    <div class="md:text-[30px] text-[25px] font-bold text-white md:mx-auto md:text-center  md:mt-[100%]">
+        <span><i class="las la-wallet"></i></span>
+        <span>Apey</span>
+    </div>
+    <!---->
+    <div class="hidden md:text-center text-white md:block md:font-bold md:text-[30px]">
+        <span>Welcome Back</span>
+    </div>
+</header>
