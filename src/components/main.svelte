@@ -40,7 +40,7 @@ var checkboxmssg = "By creating an account, you agree to our <span class='text-i
                         <div class="">
                             <div class="text-[14px] md:text-[14px]">Your name</div>
                             <div class="md:mt-[7px] mt-[8px]">
-                                <input type="text" placeholder="your name" class="border border-slate-700 md:p-[8px] p-[8px] w-full rounded-lg"/>
+                                <input type="text" placeholder="your name" class="border border-slate-700 md:p-[8px] p-[10px] w-full rounded-lg"/>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ var checkboxmssg = "By creating an account, you agree to our <span class='text-i
                         <div class="">
                             <div class="text-[14px] md:text-[14px]">Email address</div>
                             <div class="md:mt-[7px] mt-[8px]">
-                                <input type="email" placeholder="youremail@gmail.com" class="border border-slate-700 md:p-[8px] p-[8px] w-full rounded-lg"/>
+                                <input type="email" placeholder="youremail@gmail.com" class="border border-slate-700 md:p-[8px] p-[10px] w-full rounded-lg"/>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ var checkboxmssg = "By creating an account, you agree to our <span class='text-i
                     <div class="">
                         <div class="text-[14px] md:text-[14px]">Password</div>
                         <div class="md:mt-[7px] mt-[8px]">
-                            <input type="password" placeholder="at least min 8 characters" class="border border-slate-700 md:p-[8px] p-[8px] w-full rounded-lg"/>
+                            <input type="password" placeholder="at least min 8 characters" class="border border-slate-700 md:p-[8px] p-[10px] w-full rounded-lg"/>
                         </div>
                     </div>
                 </div>
