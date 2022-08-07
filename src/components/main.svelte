@@ -1,5 +1,6 @@
 <script>
 import "../app.css";
+var checkboxmssg = "By creating an account, you agree to our <span class='text-indigo-700 font-bold cursor-pointer'>terms</span> and <span class='text-indigo-700 font-bold cursor-pointer'>privacy policy</span>";
 </script>
 
 <style>
@@ -10,59 +11,76 @@ import "../app.css";
     #ffont{
         font-family: 'Poppins', sans-serif;
     }
+    input{
+        font-size:13px;
+    }
     input::placeholder{
         font-size:13px;
         font-weight:300;
-        color:#e5e7eb;
+        color:#94a3b8;
     }
     input:focus{
         outline:none;
     }
 </style>
 
-<div class="mt-[100px] md:ml-[350px] lg:ml-[400px] md:mt-[60px] p-[10px]">
+<div class="mt-[100px] md:ml-[350px] lg:ml-[400px] md:mt-[60px] md:p-[10px] p-[15px]">
     <div>
         <div id="sfont">
             <span class="font-bold md:text-[30px] text-[26px]">Sign Up</span>
+            <div class="font-thin text-slate-700 mt-[4px]">
+                Fill in the required form below to signup
+            </div>
         </div>
         <!---->
         <form>
-            <div class="mt-[30px] w-[90%] md:w-[80%]" id="ffont">
-                <div class="space-y-[20px] md:block lg:flex md:space-y-[20px] lg:space-x-[100px] lg:space-y-[0px]">
-                    <div class="w-[100%]">
-                        <div>Your name</div>
-                        <div class="mt-[8px]">
-                            <input type="text" class="border border-gray-500 rounded-md p-[5px] md:p-[8px] w-[80%] md:w-[100%]" placeholder="enter name"/>
+            <div class="mt-[30px] w-[90%] md:w-[100%] lg:w-[100%]" id="ffont">
+                <div class="lg:flex space-y-[15px] lg:space-x-[90px] lg:space-y-[0px] md:w-[100%] w-[100%]">
+                    <div id="sfont" class="">
+                        <div class="">
+                            <div class="text-[14px] md:text-[14px]">Your name</div>
+                            <div class="md:mt-[7px] mt-[8px]">
+                                <input type="text" placeholder="your name" class="border border-slate-700 md:p-[8px] p-[8px] w-full rounded-lg"/>
+                            </div>
                         </div>
                     </div>
-                    <!---->
-                    <div class="w-[100%]">
-                        <div>Your email</div>
-                        <div class="mt-[8px]">
-                            <input type="email" class="border border-gray-500 rounded-md p-[5px] md:p-[8px] w-[80%] md:w-[100%]" placeholder="enter email"/>
+                    <!--form space 2-->
+                    <div id="sfont" class="">
+                        <div class="">
+                            <div class="text-[14px] md:text-[14px]">Email address</div>
+                            <div class="md:mt-[7px] mt-[8px]">
+                                <input type="email" placeholder="youremail@gmail.com" class="border border-slate-700 md:p-[8px] p-[8px] w-full rounded-lg"/>
+                            </div>
                         </div>
                     </div>
-                    <!---->
                 </div>
-                <!--passcode-->
-                <div class="lg:inline-block mt-[20px] w-[100%] lg:w-[50%]">
-                    <div>Your password</div>
-                    <div class="mt-[8px]">
-                        <input type="password" class="border border-gray-500 rounded-md p-[5px] md:p-[8px] w-[80%] md:w-[100%] lg:w-[85%] visible" placeholder="enter password"/>
+                <!--form space 3-->
+                <div id="sfont" class="mt-[15px]">
+                    <div class="">
+                        <div class="text-[14px] md:text-[14px]">Password</div>
+                        <div class="md:mt-[7px] mt-[8px]">
+                            <input type="password" placeholder="at least min 8 characters" class="border border-slate-700 md:p-[8px] p-[8px] w-full rounded-lg"/>
+                        </div>
                     </div>
                 </div>
-                <!--terms and conditions-->
-                <div class="mt-[15px] text-[12px] font-normal md:text-[12px]">
-                    <input type="checkbox" class=""/>
-                    <span>By creating an account, you agree to our terms and privacy policy</span>
+                <!---->
+                <div class="mt-[15px] text-[12px] md:text-[12px] items-center">
+                    <input type="checkbox"/>
+                    <span>{@html checkboxmssg}</span>
                 </div>
-                <!--create account btn-->
-                <div class="mt-[30px]">
-                    <button class="bg-gray-900 text-white p-[8px] font-bold rounded-md hover:bg-gray-800 focus:outline-none">
+                <!--create btn-->
+                <div class="mt-[20px] text-sm text-white font-medium">
+                    <button class="bg-slate-800 p-[10px] rounded-lg shadow-md shadow-slate-500 hover:bg-slate-700">
                         Create Account
                     </button>
                 </div>
+                <div class="w-[100%] mt-[15px] inline-flex items-center">
+                    <div class="w-[100%] bg-slate-400 h-[1px]"></div>
+                    <div>&nbsp;or&nbsp;</div>
+                    <div class="w-[100%] bg-slate-400 h-[1px]"></div>
+                </div>
             </div>
         </form>
+        <!--end form-->
     </div>
 </div>

@@ -9,7 +9,7 @@
         background-position: center;
         background-size: 100% 100%;
         background-color: #111827;
-        opacity: 0.8;
+        opacity: 1;
     }
 
     @media only screen and (min-width:768px){
@@ -23,7 +23,7 @@
 </style>
 
 <!---->
-<header class="fixed top-0 w-full h-fit p-[10px] md:w-[300px] md:h-[100%]" id="navig">
+<header class="fixed top-0 w-full h-fit p-[20px] md:p-[10px] md:w-[300px] md:h-[100%] z-[9999]" id="navig">
     <div class="md:text-[30px] text-[25px] font-bold text-white md:mx-auto md:text-center  md:mt-[100%]">
         <span><i class="las la-wallet"></i></span>
         <span>Apey</span>
