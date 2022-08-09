@@ -154,12 +154,12 @@ var loginmssg = 'Login';
                 <!--other auth method-->
                 <div class="mx-auto align-center">
                     <div class="flex mx-auto items-center space-x-[10px] md:space-x-[10px] font-thin">
-                        <button class="bg-red-700 w-fit p-[10px] rounded-md text-white text-[10px] md:text-[15px] text-center">
+                        <button class="bg-red-700 w-fit p-[10px] rounded-md text-white text-[10px] md:text-[15px] text-center shadow-md shadow-gray-400">
                             <span><i class="lab la-github"></i></span>
                             <span>Connect with Github</span>
                         </button>
                         <!--2 auth-->
-                        <button class="bg-red-700 w-fit p-[10px] rounded-md text-white text-[10px] md:text-[15px] text-center">
+                        <button class="bg-red-700 w-fit p-[10px] rounded-md text-white text-[10px] md:text-[15px] text-center shadow-md shadow-gray-400">
                             <span><i class="lab la-google-plus-g"></i></span>
                             <span>Connect with Google</span>
                         </button>
