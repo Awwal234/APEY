@@ -126,7 +126,7 @@ var loginmssg = 'Login';
                     </div>
                 </div>
                 <!--form space 3-->
-                <div id="sfont" class="mt-[15px] lg:w-[45%]">
+                <div id="sfont" class="mt-[15px] lg:w-[43%]">
                     <div class="">
                         <div class="text-[14px] md:text-[14px]">Password</div>
                         <div class="md:mt-[7px] mt-[8px]">
